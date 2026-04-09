@@ -4,7 +4,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello Muneeb 🚀 Your CI/CD is LIVE!"
     return "🚀 Muneeb's CI/CD Project is LIVE"
     
 if __name__ == "__main__":
